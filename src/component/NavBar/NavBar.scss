@@ -1,0 +1,10 @@
+@import '../../commonStyle/commonStyle.scss';
+
+
+.navbarWapper{
+    @extend .topWrapper;
+    background: $Blue;
+    height: 50px;
+    display: flex
+
+}

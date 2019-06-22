@@ -1,0 +1,30 @@
+@import './variable.scss';
+
+.topWrapper{
+    width: fill-available;
+    padding: 0 15%;
+}
+
+
+html {
+    -webkit-text-size-adjust: 100%;
+    box-sizing: border-box;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+    text-rendering: optimizeLegibility;
+    @include fSize(14px);
+    overscroll-behavior: none;
+}
+body {
+    background: $White;
+    color: $DBlack;
+    height: 100%;
+    margin: 0 auto;
+    @include fWeight(400);
+    @include fSize(14px);
+    @extend .fullWidth;
+}
+body{
+    width: 100%;
+}
